@@ -54,7 +54,7 @@ export default function App() {
       <Text styles={styles.itemText} > CEP: {data.cep}</Text>
       <Text styles={styles.itemText} > logradouro: {data.logradouro}</Text>
       <Text styles={styles.itemText} > bairro: {data.bairro}</Text>
-      <Text styles={styles.itemText} > cidade: {data.cidade}</Text>
+      <Text styles={styles.itemText} > cidade: {data.localidade}</Text>
       <Text styles={styles.itemText} > estado: {data.uf}</Text>
     </View>
       ): (null) 
